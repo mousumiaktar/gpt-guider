@@ -1,16 +1,16 @@
-import Main from "./layout/Main"
+import { RouterProvider } from "react-router-dom"
+import { router } from "./router/Router"
 
 
 function App() {
-  
 
   return (
+
     <>
-      <div>
-        <Main />
-      </div>
-      
+      <RouterProvider router={router}></RouterProvider>
     </>
+
+
   )
 }
 

@@ -1,3 +1,4 @@
+import Main from "./layout/Main"
 
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
   return (
     <>
       <div>
-        
+        <Main />
       </div>
       
     </>

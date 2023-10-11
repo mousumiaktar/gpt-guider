@@ -6,6 +6,7 @@ import Featurs from "./Featurs";
 import Hero from "./Hero";
 import PlugIn from "./PlugIn";
 import Prof from "./Prof";
+import Transcription from "./Transcription";
 
 const HomePage = () => {
     return (
@@ -18,6 +19,7 @@ const HomePage = () => {
             <ChatWithPdf />
             <AudioVideo />
             <DiagramPlugin />
+            <Transcription />
         </div>
     );
 };

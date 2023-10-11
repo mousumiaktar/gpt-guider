@@ -1,5 +1,6 @@
 import AudioVideo from "./AudioVideo";
 import ChatWithPdf from "./ChatWithPdf";
+import DiagramPlugin from "./DiagramPlugin";
 import DocumentAi from "./DocumentAi";
 import Featurs from "./Featurs";
 import Hero from "./Hero";
@@ -16,6 +17,7 @@ const HomePage = () => {
             <DocumentAi />
             <ChatWithPdf />
             <AudioVideo />
+            <DiagramPlugin />
         </div>
     );
 };
